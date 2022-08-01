@@ -1,0 +1,142 @@
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+    }
+    /*header*/
+    
+    header {
+        height: 10vh;
+    }
+    
+    .menu {
+        display: flex;
+        justify-content: space-between;
+        height: 100%;
+        align-items: center;
+    }
+    
+    .container-grid {
+        width: 1200px;
+        margin: 0 auto;
+    }
+    
+    .logo {
+        width: 140px;
+    }
+    
+    .lista ul {
+        display: flex;
+    }
+    
+    .lista li {
+        list-style: none;
+    }
+    
+    .lista ul li {
+        margin: 25px;
+    }
+    
+    .lista a {
+        color: #000;
+        text-decoration: none;
+        font-style: normal;
+        font-size: 20px;
+        font-weight: 200;
+        background-size: 0 2px, auto;
+        background-repeat: no-repeat;
+        background-position: center bottom;
+        transition: all 0.2s ease-out;
+        background-image: linear-gradient(180deg, #2400FF 0%, #5E1CCA 100%);
+    }
+    
+    .lista a:hover {
+        background-size: 100% 2px, auto;
+        justify-content: center;
+        color: #2400FF;
+    }
+    /*main*/
+    
+    main {
+        padding-top: 50px;
+    }
+    
+    .pesquisa-adicionar {
+        width: 75%;
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+        margin-bottom: 50px;
+        height: 50px;
+    }
+    
+    form {
+        width: 85%;
+    }
+    
+    input {
+        height: 100%;
+        background: url(./img/lupa.svg) no-repeat scroll 7px 7px;
+        padding-left: 50px;
+        border: solid 1px #5E1CCA;
+        width: 100%;
+    }
+    
+    input:focus {
+        outline: solid 1px #5E1CCA;
+    }
+    
+    button {
+        width: 10%;
+        height: 100%;
+        cursor: pointer;
+        background-image: linear-gradient(180deg, #2400FF 0%, #5E1CCA 100%);
+        border: none;
+        color: #fff;
+        font-size: 41px;
+        font-weight: 200;
+        line-height: 0.9;
+        opacity: 85%;
+        transition: 0.5s;
+    }
+    
+    button:hover {
+        opacity: 100%;
+    }
+    /*titulo*/
+    
+    h1 {
+        font-weight: 400;
+        font-size: 30px;
+        color: #5E1CCA;
+    }
+    /*cards*/
+    
+    .lista-cards {
+        margin-top: 40px;
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    
+    .card {
+        border-width: 6px;
+        border-style: solid;
+        border-image: linear-gradient(to bottom, #2400FF 0%, #5E1CCA 100%) 1;
+        border-top: none;
+        border-left: none;
+        width: 260px;
+        height: 270px;
+        margin-bottom: 50px;
+    }
+    
+    .titulo-card span {
+        font-size: 30px;
+    }
+    
+    .card p {
+        color: #3F3E3E;
+    }
