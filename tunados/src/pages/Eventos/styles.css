@@ -1,0 +1,83 @@
+main {
+    padding-top: 50px;
+    background-color: #fff;
+}
+
+.pesquisa-adicionar {
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    height: 50px;
+}
+
+form {
+    width: 85%;
+}
+
+.pesquisa {
+    height: 100%;
+    background: url(../../assets/img/lupa.svg) no-repeat scroll 7px 7px;
+    padding-left: 50px;
+    border: solid 1px #5E1CCA;
+    width: 100%;
+}
+
+.pesquisa:focus {
+    outline: solid 1px #5E1CCA;
+}
+
+.adicionar-btn {
+    width: 10%;
+    height: 100%;
+    cursor: pointer;
+    background-image: linear-gradient(180deg, #2400FF 0%, #5E1CCA 100%);
+    border: none;
+    color: #fff;
+    font-size: 41px;
+    font-weight: 200;
+    line-height: 0.9;
+    opacity: 85%;
+    transition: 0.5s;
+}
+
+.adicionar-btn:hover {
+    opacity: 100%;
+}
+/*titulo*/
+
+h1 {
+    font-weight: 400;
+    font-size: 30px;
+    color: #5E1CCA;
+}
+/*cards*/
+
+.lista-cards {
+    margin-top: 40px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card {
+    border-width: 6px;
+    border-style: solid;
+    border-image: linear-gradient(to bottom, #2400FF 0%, #5E1CCA 100%) 1;
+    border-top: none;
+    border-left: none;
+    width: 260px;
+    height: 270px;
+    margin-bottom: 50px;
+}
+
+.titulo-card span {
+    font-size: 30px;
+}
+
+.card p {
+    color: #3F3E3E;
+}
+

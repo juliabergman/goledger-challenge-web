@@ -1,0 +1,26 @@
+/*body*/
+.conteudo_home {
+    background-image: url(../../assets/img/fundohome.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+
+.apresentacao_menu {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+
+.apresentacao_menu h1 {
+    color: #fff;
+    font-weight: 400;
+    font-size: 96px;
+}
+
+.card:target {
+    opacity: 1;
+    pointer-events: auto;
+}

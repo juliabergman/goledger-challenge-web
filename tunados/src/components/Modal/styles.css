@@ -1,0 +1,61 @@
+/*modal*/
+
+.modal {
+    /* opacity: 0; */
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    width: 466px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-width: 6px;
+    border-style: solid;
+    border-image: linear-gradient(to bottom, #2400FF 0%, #5E1CCA 100%) 1;
+    border-top: none;
+    border-left: none;
+    padding: 20px;
+    background-color: #fff;
+}
+
+
+
+
+.apagar-fechar,
+.editar-salvar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.campo-modal {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.campo-modal input {
+    border: solid 1px #5E1CCA;
+    height: 40px;
+    text-indent: 20px;
+}
+
+.campo-modal input:focus {
+    outline: solid 1px #5E1CCA;
+}
+
+.btn-modal {
+    border: none;
+    background-color: #fff;
+    cursor: pointer;
+}
