@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos</title>
+    <link rel="stylesheet" href="./eventos.css">
+    <link rel="shortcut icon" href="./img/icon.svg" type="image/x-icon">
+</head>
+
+
+<body>
+    <header>
+        <div class="menu container-grid">
+            <img class="logo" src="./img/logo roxa.svg">
+            <div class="lista">
+                <nav>
+                    <ul>
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./eventos.html">Eventos</a></li>
+                        <li><a href="./carros.html">Carros</a></li>
+                        <li><a href="./pilotos.html">Pilotos</a></li>
+                        <li><a href="./equipes.html">Equipes</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main class="container-grid">
+        <div class="pesquisa-adicionar">
+            <form>
+                <input class="pesquisa" type="text" placeholder="Procure aqui :)">
+            </form>
+            <button class="adicionar-btn">+</button>
+        </div>
+        <h1>Eventos</h1>
+        <section class="lista-cards container-grid">
+            <article class="card">
+                <span>31/07</span>
+                <h2>Nome</h2>
+                <p>Premiação: <span>1.000000</span></p>
+                <p>Equipe vencedora: equipe</p>
+            </article>
+        </section>
+        <form class="modal">
+            <div class="apagar-fechar">
+                <button class="btn-modal">
+                    <img src="./img/lixeira.svg">
+                </button>
+                <button class="btn-modal">
+                    <img src="./img/sair.svg">
+                </button>
+            </div>
+
+            <div class="campo-modal">
+                <label for="data-evento">Data</label>
+                <input id="data-evento" class="input_modal" type="text">
+            </div>
+
+            <div class="campo-modal">
+                <label for="nome-evento">Nome</label>
+                <input id="nome-evento" class="input_modal" type="text">
+            </div>
+
+            <div class="campo-modal">
+                <label for="premiacao-evento">Premiação</label>
+                <input id="premiacao-evento" class="input_modal" type="text">
+            </div>
+
+            <div class="campo-modal">
+                <label for="vencedor-evento">Equipe vencedora</label>
+                <input id="vencedor-evento" class="input_modal" type="text">
+            </div>
+
+            <div class="editar-salvar">
+                <button class="btn-modal">
+                    <img src="./img/editar.svg">
+                </button>
+                <button class="btn-modal">
+                    <img src="./img/salvar.svg">
+                </button>
+            </div>
+
+        </form>
+    </main>
+</body>
+
+</html>

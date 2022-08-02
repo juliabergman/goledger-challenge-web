@@ -1,0 +1,49 @@
+header {
+    height: 10vh;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    align-items: center;
+}
+
+.container-grid {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 140px;
+}
+
+.lista ul {
+    display: flex;
+}
+
+.lista li {
+    list-style: none;
+}
+
+.lista ul li {
+    margin: 25px;
+}
+
+.lista a {
+    color: #fff;
+    text-decoration: none;
+    font-style: normal;
+    font-size: 20px;
+    font-weight: 200;
+    background-size: 0 2px, auto;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    transition: all 0.2s ease-out;
+    background-image: linear-gradient(rgb(248, 248, 248), rgb(255, 255, 255));
+}
+
+.lista a:hover {
+    background-size: 100% 2px, auto;
+    justify-content: center;
+}

@@ -76,7 +76,7 @@
         width: 85%;
     }
     
-    input {
+    .pesquisa {
         height: 100%;
         background: url(./img/lupa.svg) no-repeat scroll 7px 7px;
         padding-left: 50px;
@@ -84,11 +84,11 @@
         width: 100%;
     }
     
-    input:focus {
+    .pesquisa:focus {
         outline: solid 1px #5E1CCA;
     }
     
-    button {
+    .adicionar-btn {
         width: 10%;
         height: 100%;
         cursor: pointer;
@@ -102,7 +102,7 @@
         transition: 0.5s;
     }
     
-    button:hover {
+    .adicionar-btn:hover {
         opacity: 100%;
     }
     /*titulo*/
@@ -139,4 +139,48 @@
     
     .card p {
         color: #3F3E3E;
+    }
+    /*modal*/
+    
+    .modal {
+        width: 466px;
+        margin: 0 auto;
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        border-width: 6px;
+        border-style: solid;
+        border-image: linear-gradient(to bottom, #2400FF 0%, #5E1CCA 100%) 1;
+        border-top: none;
+        border-left: none;
+        padding: 20px;
+    }
+    
+    .apagar-fechar,
+    .editar-salvar {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .campo-modal {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .campo-modal input {
+        border: solid 1px #5E1CCA;
+        height: 40px;
+        text-indent: 20px;
+    }
+    
+    .campo-modal input:focus {
+        outline: solid 1px #5E1CCA;
+    }
+    
+    .btn-modal {
+        border: none;
+        background-color: #fff;
+        cursor: pointer;
     }
