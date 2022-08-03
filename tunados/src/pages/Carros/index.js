@@ -22,9 +22,11 @@ function Carros() {
                     <form>
                         <input className="pesquisa" type="text" placeholder="Procure aqui :)" />
                     </form>
-                    <button className="adicionar-btn">+</button>
                 </div>
-                <h1>Eventos</h1>
+                <div className="btn-e-titulo">
+                <button onClick={abreModal} className="adicionar-btn">+</button>
+                <h1>Carros</h1>
+                </div>
                 <section className="lista-cards container-grid">
                     <article className="card">
                         <h2>Modelo</h2>

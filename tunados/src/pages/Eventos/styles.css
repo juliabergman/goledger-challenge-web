@@ -4,14 +4,23 @@ main {
 }
 
 .pesquisa-adicionar {
-    width: 75%;
+    width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     margin: 0 auto;
     margin-bottom: 50px;
     height: 50px;
 }
 
+.btn-e-titulo{
+    display: flex;
+    align-items: center;
+}
+
+.btn-e-titulo button, .btn-e-titulo h1{
+
+    margin: 10px;
+}
 form {
     width: 85%;
 }
@@ -80,8 +89,22 @@ h1 {
 }
 
 .editarModal{
+    font-size: 20px;
     color: #2400FF;
     cursor: pointer;
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+    background-size: 0 2px, auto;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    transition: all 0.3s ease-out;
+    background-image: linear-gradient(180deg, #2400FF 0%, #5E1CCA 100%);
+}
+
+.editarModal:hover {
+    background-size: 40% 2px, auto;
+    justify-content: center;
 }
 .card p {
     color: #3F3E3E;
